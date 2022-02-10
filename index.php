@@ -30,7 +30,7 @@
 <body>
   <div class="wrapper">
     <form action="#" autocomplete="off">
-      <input type="text" spellcheck="false" name="full_url" placeholder="Enter or paste a long url" required>
+      <input type="text" spellcheck="false" name="full_url" placeholder="Enter or paste a long URL" required>
       <i class="url-icon uil uil-link"></i>
       <button>Shorten</button>
     </form>
