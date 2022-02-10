@@ -18,11 +18,11 @@
 ?>
 
 <!DOCTYPE html>
-<!-- Coding By CodingNepal - youtube.com/codingnepal -->
+<!-- Coding By -->
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>URL Shortener in PHP | CodingNepal</title>
+  <title>URL Shortener</title>
   <link rel="stylesheet" href="style.css">
   <!-- Iconsout Link for Icons -->
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
@@ -87,7 +87,7 @@
               </li>
                 <li><?php echo $row['clicks'] ?></li>
                 <li><a href="php/delete.php?id=<?php echo $row['shorten_url'] ?>">Delete</a></li>
-                <li><a href="php/update.php?id=<?php echo $row['shorten_url'] ?>">Edit</a></li>
+                <li><a href="php/update.php?id=<?php echo $row['id'] ?>">Edit</a></li>
               </div>
               <?php
             }
